@@ -68,9 +68,9 @@ header {
   z-index: 99;
 }
 
-header .brand-name {
-  font-size: 32px;
-  color: var(--main-color);
+header .brand-name img {
+  width: 40px;
+  height: 40px;
 }
 
 header nav ul li {
@@ -92,8 +92,10 @@ header nav ul li {
   opacity: 0.2;
   display: inline-block;
   position: absolute;
-  top: 25%;
+  top: 15%;
+  left: 0;
   display: inline-block;
+  height: auto;
 }
 
 .banner .Content h6 {
