@@ -305,11 +305,11 @@ header ul li a:hover {
   box-shadow: none !important;
 }
 
-.content .contact-details {
+.contact-details {
   color: var(--text-color);
 }
 
-.content .contact-details {
+.contact-details:hover {
   color: var(--main-color);
 }
 
