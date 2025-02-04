@@ -10,7 +10,9 @@
   --text-color: #292929;
   --container-color: #0000;
   --hover-color: #fff;
+  --transition: 0.5s all ease-in-out:
 }
+
 
 .container {
   max-width: 1320px;
@@ -24,6 +26,7 @@ ul {
 
 a {
   text-decoration: none !important;
+  transition: var(--transition);
 }
 
 .row {
@@ -66,6 +69,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 99;
+  padding: 15px 0px;
 }
 
 header .brand-name img {
