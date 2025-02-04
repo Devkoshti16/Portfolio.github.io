@@ -305,6 +305,13 @@ header ul li a:hover {
   box-shadow: none !important;
 }
 
+.content .contact-details {
+  color: var(--text-color);
+}
+
+.content .contact-details {
+  color: var(--main-color);
+}
 
 /* footer */
 .footer {
