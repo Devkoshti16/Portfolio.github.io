@@ -78,9 +78,10 @@ header {
   justify-content: space-between;
 }
 
-header .menu {
+header ul {
   display: flex;
-  align-items: centerD;
+  align-items: center;
+  margin: 0;
 }
 
 header .brand-name img {
